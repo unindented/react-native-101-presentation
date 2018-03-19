@@ -1,0 +1,12 @@
+{
+  "arrowParens": "always",
+  "printWidth": 80,
+  "overrides": [
+    {
+      "files": "*.txt",
+      "options": {
+        "printWidth": 60,
+      }
+    }
+  ]
+}

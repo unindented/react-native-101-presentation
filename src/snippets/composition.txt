@@ -1,0 +1,22 @@
+const Counter = (props) => (
+  <span style={styles.text}>{props.value}</span>
+);
+
+const App = (props) => (
+  <div style={styles.container}>
+    <Counter value={props.initialValue} />
+  </div>
+);
+
+const styles = {
+  text: {
+    color: "#495361",
+    padding: "0 10px"
+  },
+  container: {
+    border: "1px solid #495361",
+    padding: "10px"
+  }
+};
+
+render(<App initialValue={42} />);

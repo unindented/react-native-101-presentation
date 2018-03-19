@@ -1,0 +1,16 @@
+class Counter extends React.Component {
+  render() {
+    return (
+      <span style={styles.text}>{this.props.value}</span>
+    );
+  }
+}
+
+const styles = {
+  text: {
+    color: "#495361",
+    padding: "0 10px"
+  }
+};
+
+render(<Counter value={42} />);

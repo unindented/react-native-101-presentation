@@ -1,0 +1,51 @@
+const Counter = (props) => (
+  <span style={styles.text}>{props.value}</span>
+);
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      value: props.initialValue
+    };
+
+    this.increment = this.increment.bind(this);
+    this.decrement = this.decrement.bind(this);
+  }
+
+  render() {
+    return (
+      <div style={styles.container}>
+        <Counter value={this.state.value} />
+        <button onClick={this.increment}>+</button>
+        <button onClick={this.decrement}>-</button>
+      </div>
+    );
+  }
+
+  increment() {
+    this.setState((prevState) => ({
+      value: prevState.value + 1
+    }));
+  }
+
+  decrement() {
+    this.setState((prevState) => ({
+      value: prevState.value - 1
+    }));
+  }
+}
+
+const styles = {
+  text: {
+    color: "#495361",
+    padding: "0 10px"
+  },
+  container: {
+    border: "1px solid #495361",
+    padding: "10px"
+  }
+};
+
+render(<App initialValue={42} />);

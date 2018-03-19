@@ -1,0 +1,12 @@
+const Counter = (props) => (
+  <span style={styles.text}>{props.value}</span>
+);
+
+const styles = {
+  text: {
+    color: "#495361",
+    padding: "0 10px"
+  }
+};
+
+render(<Counter value={42} />);

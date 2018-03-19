@@ -1,0 +1,13 @@
+const Counter = (props) => (
+  <Text style={styles.text}>{props.value}</Text>
+);
+
+const styles = StyleSheet.create({
+  text: {
+    color: "#495361",
+    paddingLeft: 10,
+    paddingRight: 10
+  }
+});
+
+render(<Counter value={42} />);
