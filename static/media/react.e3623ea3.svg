@@ -1,0 +1,70 @@
+<svg id="mermaid-1521560153090" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 388.172 246.5" style="max-width:388.171875px">
+  <style>
+    #mermaid-1521560153090 .label{font-family:&apos;trebuchet ms&apos;,verdana,arial;color:#333}#mermaid-1521560153090 .node rect{fill:#e9eff8;stroke:#9ac3ff;stroke-width:1px}#mermaid-1521560153090 .arrowheadPath{fill:#9ac3ff}#mermaid-1521560153090 .edgePath .path{stroke:#9ac3ff;stroke-width:1.5px}#mermaid-1521560153090 .edgeLabel{background-color:#e8e8e8}
+  </style>
+  <style>
+    #mermaid-1521560153090{color:rgba(0,0,0,.65);font:400 14px/21px &quot;Monospaced Number&quot;,&quot;Chinese Quote&quot;,-apple-system,system-ui,&quot;Segoe UI&quot;,Roboto,&quot;PingFang SC&quot;,&quot;Hiragino Sans GB&quot;,&quot;Microsoft YaHei&quot;,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif}
+  </style>
+  <g class="output">
+    <g class="edgePaths">
+      <g class="edgePath" transform="translate(32 32)">
+        <path class="path" d="M126.387 62.193L75.945 91.25v25" marker-end="url(#arrowhead17)" fill="none"/>
+        <defs>
+          <marker id="arrowhead17" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="6" orient="auto">
+            <path d="M0 0l10 5-10 5z" class="arrowheadPath" stroke-dasharray="1,0"/>
+          </marker>
+        </defs>
+      </g>
+      <g class="edgePath" transform="translate(32 32)">
+        <path class="path" d="M192.59 62.193L243.03 91.25v25" marker-end="url(#arrowhead18)" fill="none"/>
+        <defs>
+          <marker id="arrowhead18" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="6" orient="auto">
+            <path d="M0 0l10 5-10 5z" class="arrowheadPath" stroke-dasharray="1,0"/>
+          </marker>
+        </defs>
+      </g>
+    </g>
+    <g class="edgeLabels">
+      <g class="edgeLabel">
+        <foreignObject width="0" height="0" transform="translate(32 32)">
+          <div xmlns="http://www.w3.org/1999/xhtml" display="inline-block" white-space="nowrap">
+            <span class="edgeLabel"/>
+          </div>
+        </foreignObject>
+      </g>
+      <g class="edgeLabel">
+        <foreignObject width="0" height="0" transform="translate(32 32)">
+          <div xmlns="http://www.w3.org/1999/xhtml" display="inline-block" white-space="nowrap">
+            <span class="edgeLabel"/>
+          </div>
+        </foreignObject>
+      </g>
+    </g>
+    <g class="nodes" transform="translate(32 32)">
+      <g class="node" id="A" transform="translate(159.488 43.125)">
+        <rect rx="5" ry="5" x="-33.102" y="-23.125" width="66.203" height="46.25"/>
+        <foreignObject width="46.211" height="26.25" transform="translate(-23.102 -13.125)">
+          <div xmlns="http://www.w3.org/1999/xhtml" style="text-align:center;width:100%" display="inline-block" white-space="nowrap">
+            React
+          </div>
+        </foreignObject>
+      </g>
+      <g class="node" id="B" transform="translate(75.945 139.375)">
+        <rect rx="5" ry="5" x="-55.945" y="-23.125" width="111.891" height="46.25"/>
+        <foreignObject width="91.895" height="26.25" transform="translate(-45.945 -13.125)">
+          <div xmlns="http://www.w3.org/1999/xhtml" style="text-align:center;width:100%" display="inline-block" white-space="nowrap">
+            React DOM
+          </div>
+        </foreignObject>
+      </g>
+      <g class="node" id="C" transform="translate(243.031 139.375)">
+        <rect rx="5" ry="5" x="-61.141" y="-23.125" width="122.281" height="46.25"/>
+        <foreignObject width="102.285" height="26.25" transform="translate(-51.14 -13.125)">
+          <div xmlns="http://www.w3.org/1999/xhtml" style="text-align:center;width:100%" display="inline-block" white-space="nowrap">
+            React Native
+          </div>
+        </foreignObject>
+      </g>
+    </g>
+  </g>
+</svg>
